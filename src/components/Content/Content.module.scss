@@ -1,0 +1,65 @@
+.Content {
+	grid-area: content;
+	padding: 20px 20px 30px 30px;
+	color: var(--blue);
+
+	&__Title {
+		margin: 0;
+		padding-bottom: 16px;
+		text-align: center;
+	}
+
+	&__ExpirienceWrapper {
+		position: relative;
+		padding: 8px 16px;
+		border-left: 2px solid var(--blue);
+		color: var(--blue-gray);
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 8px;
+			left: -9px;
+			width: 16px;
+			height: 16px;
+			border-radius: 50%;
+			background-color: var(--blue);
+		}
+	}
+
+	&__Period {
+		min-width: 150px;
+		margin-bottom: 0.5em;
+		font-style: italic;
+	}
+
+	&__Description {
+		padding-bottom: 16px;
+
+		font-family: 'Franklin Gothic Regular', 'Arial Narrow', Arial, sans-serif;
+
+		font-size: 16px;
+		line-height: 18px;
+		text-transform: inherit;
+		text-align: justify;
+	}
+
+	&__EducationWrapper {
+		margin-top: 32px;
+	}
+
+	@media only screen and (max-width: 760px) {
+		&__JobTitle {
+			margin-bottom: 84px;
+		}
+	}
+
+	@media only screen and (max-width: 730px) {
+		&__Name, &__JobTitle {
+			display: none;
+		}
+	}
+}
+
+
+// calc(100% - 208px)
