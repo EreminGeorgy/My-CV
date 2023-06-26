@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Zametka";
+  src: url("/src/fonts/zametka/Zametka.otf");
+}
+
+body {
+  margin: 0;
+  font-family: Zametka, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-print-color-adjust:exact !important;
+  print-color-adjust:exact !important;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+b {
+  color: black;
+}
+
+:root {
+  --blue: rgb(102 138 159);
+  --blue-gray: rgb(48, 93, 99);
+  --dark-blue: rgb(21 42 45);
+}

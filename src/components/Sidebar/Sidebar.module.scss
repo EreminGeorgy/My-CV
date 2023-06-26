@@ -1,0 +1,118 @@
+.Sidebar {
+	grid-area: sidebar;
+	min-width: 320px;
+	color: #fff;
+	background-color: var(--blue);
+	padding: 18px;
+
+	@media print { 
+		min-width: 5.5cm;
+		background-color: var(--blue);
+		height: 510mm;
+	}
+
+	&__Title {
+		margin-bottom: 16px;
+		padding-top: 16px;
+		border-top: 2px solid #fff;
+	}
+
+	& section:first-child &__Title {
+		border-top: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	&__Content {
+		margin-top: 1em;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	&__Line {
+		display: flex;
+		align-items: center;
+		margin-bottom: 16px;
+		font-family: 'Franklin Gothic Regular', 'Arial Narrow', Arial, sans-serif;
+		padding-top: 10px;
+
+		@media print { 
+			font-size: 16px;
+			line-height: 18px;
+		}
+	}
+
+	&__Contact {
+		font-family: 'Zametka', Arial, sans-serif;
+		padding-left: 10px;
+		font-size: 11px;
+	}
+
+	&__SkillTitle {
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+		margin-bottom: 8px;
+		padding: 10px 8px 8px 8px;
+		border-radius: 8px;
+		background-color: rgba(75, 68, 68, 0.6);
+		transition: 0.3s;
+
+		&:hover {
+			background-color: rgba(58, 114, 118, 0.6);
+		}
+
+		&:nth-child(4) {
+			@media print {
+				margin-top: 20mm; 
+			}
+		}
+	}
+
+	&__Skill {
+		font-family: 'Franklin Gothic Regular', 'Arial Narrow', Arial, sans-serif;
+		font-size: 18px;
+		line-height: 24px;
+		text-transform: inherit;
+		padding-left: 20px;
+
+		@media print { 
+			font-size: 16px;
+			line-height: 18px;
+		}
+
+		&:last-child {
+			margin-bottom: 16px;
+		}
+	}
+
+	@media only screen and (max-width: 730px) {
+		width: 100%;
+
+		&__TitleInfo {
+			display: flex;
+			align-items: center;
+		}
+
+		&__TitleName {
+			display: block;
+			margin: 0 32px;
+		}
+
+		&__Contacts {
+			margin-right: 32px;
+		}
+	}
+
+	@media only screen and (max-width: 580px) {
+		&__TitleInfo {
+			flex-direction: column;
+		}
+
+		&__TitleName {
+			align-self: start;
+		}
+	}
+}
