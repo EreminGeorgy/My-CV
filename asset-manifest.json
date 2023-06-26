@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My-CV/static/css/main.c81b20a1.chunk.css",
+    "main.js": "/My-CV/static/js/main.a332e9a5.chunk.js",
+    "main.js.map": "/My-CV/static/js/main.a332e9a5.chunk.js.map",
+    "runtime-main.js": "/My-CV/static/js/runtime-main.9decb900.js",
+    "runtime-main.js.map": "/My-CV/static/js/runtime-main.9decb900.js.map",
+    "static/js/2.1b5d8641.chunk.js": "/My-CV/static/js/2.1b5d8641.chunk.js",
+    "static/js/2.1b5d8641.chunk.js.map": "/My-CV/static/js/2.1b5d8641.chunk.js.map",
+    "index.html": "/My-CV/index.html",
+    "static/css/main.c81b20a1.chunk.css.map": "/My-CV/static/css/main.c81b20a1.chunk.css.map",
+    "static/js/2.1b5d8641.chunk.js.LICENSE.txt": "/My-CV/static/js/2.1b5d8641.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/My-CV/static/media/Zametka.ecbdf7ab.otf",
+    "static/media/envelope.5ed6789a.png": "/My-CV/static/media/envelope.5ed6789a.png",
+    "static/media/location.4833426b.png": "/My-CV/static/media/location.4833426b.png",
+    "static/media/printer.a7130c26.png": "/My-CV/static/media/printer.a7130c26.png",
+    "static/media/telegram.aab20193.png": "/My-CV/static/media/telegram.aab20193.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9decb900.js",
+    "static/js/2.1b5d8641.chunk.js",
+    "static/css/main.c81b20a1.chunk.css",
+    "static/js/main.a332e9a5.chunk.js"
+  ]
+}
