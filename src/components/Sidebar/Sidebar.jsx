@@ -47,7 +47,7 @@ export const Sidebar = ({lang}) => {
 						<li>Git, GitFlow</li>
 						<li>Webpack, Gulp, Babel</li>
 						<li>Karma, Jest, Enzyme, Test Cafe, Playwright</li>
-						<li>SQL, PHP</li>
+						<li>Java, Python, SQL</li>
 						<li>Docker</li>
 					</ul>
 
