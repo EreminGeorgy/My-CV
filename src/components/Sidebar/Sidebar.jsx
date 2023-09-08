@@ -30,7 +30,7 @@ export const Sidebar = ({lang}) => {
 
 					<h3 className={styles.Sidebar__SkillTitle}>JavaScript, ES6+</h3>
 					<ul className={styles.Sidebar__Skill}>
-						<li>React + Redux, Angular, VueJS</li>
+						<li>React + Redux, Angular, VueJS, Next.js</li>
 						<li>NodeJS</li>
 					</ul>
 
@@ -65,7 +65,7 @@ export const Sidebar = ({lang}) => {
 				<h3 className={styles.Sidebar__Title}>{DICTIONARY[`${lang}`].contacts}</h3>
 				<div className={styles.Sidebar__Line}>
 					<img alt='envelope' width="20px" height="20px" className={styles.Sidebar__Icon} src={envelope}/>
-					<p className={styles.Sidebar__Contact}>eremingeorgy@yandex.ru</p>
+					<p className={styles.Sidebar__Contact}>eremingeorgy@gmail.com</p>
 				</div>
 				<div className={styles.Sidebar__Line}>
 					<img alt='telegram' width="20px" height="20px" className={styles.Sidebar__Icon} src={telegram}/>
